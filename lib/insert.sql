@@ -7,4 +7,4 @@ VALUES
 ("Melissa", 5, "M", "brown", "happy", 1)
 ("Grinch", 5, "M", "brown", "happy", 1)
 ("Wendy", 5, "M", "brown", "happy", 1)
-(NULL, 5, "M", "brown", "happy", 1)
+(NULL, 5, "M", "brown", "happy", 1);
