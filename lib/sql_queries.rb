@@ -15,7 +15,8 @@ query = "SELECT name, age FROM bears WHERE age  = (SELECT MAX(age) FROM bears) L
 end
 
 def select_youngest_bear_and_returns_name_and_age
-  "SELECT name, age FROM bears WHERE age = (SELECT MIN(age) FROM bears)"
+  # query = "SELECT name, age FROM bears WHERE age = (SELECT MIN(age) FROM bears)"
+  query = "SELECT name, age FROM bears WHERE age = (SELECT MIN(age) FROM bears)"
 end
 
 def selects_most_prominent_color_and_returns_with_count
